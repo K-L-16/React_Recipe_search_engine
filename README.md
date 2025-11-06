@@ -1,16 +1,34 @@
-# React + Vite
+# React Recipe Search Engine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a food recipe search application built with **React + Vite + Tailwind CSS**, powered by the **Forkify API**.  
+Users can search recipes by keyword, view detailed recipe information, and explore publisher information.  
+Responsive UI and smooth navigation included.
 
-Currently, two official plugins are available:
+This project demonstrates:
+- Fetch data from a public API
+- Handle form input and loading states
+- Use React Router for dynamic routes
+- Design UI layouts with Tailwind CSS
+- Using useContext to control globalContext
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### How to use
 
-## Expanding the ESLint configuration
+In the top search bar input the food your are looking for, and you can check the details and add to your favorite.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Tech Stack
+- React + Vite
+- React Router v6
+- Tailwind CSS v4
+- Fetch API + Forkify API
+
+Download and Run This Project
+
+```bash
+git clone https://github.com/K-L-16/React_Recipe_search_engine.git
+cd React_Recipe_search_engine
+npm install
+npm run dev
+```
