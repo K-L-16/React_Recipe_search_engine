@@ -8,12 +8,12 @@ import Details from './pages/details'
 function App() {
 
   return (
-    <div>
+    <div className="fade-in">
       <div className='min-h-screen p-6 bg-white text-grey-600 text-lg'>
         <Navbar />
-        
+
         <Routes>
-          <Route path='/' element={<Home/>} />
+          <Route path='/' element={<Home />} />
           <Route path='/favorites' element={<Favorites />} />
           <Route path='/recipe-item/:id' element={<Details />} />
         </Routes>
