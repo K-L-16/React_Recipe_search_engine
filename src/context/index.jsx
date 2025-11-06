@@ -14,7 +14,6 @@ export default function GlobalState({ children }) {
 
     const navigate = useNavigate();
 
-    // 首次加载时获取默认食谱
     useEffect(() => {
         async function getDefaultRecipes() {
             setLoading(true);
